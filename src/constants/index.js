@@ -8,25 +8,23 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    python,
+    cpp,
+    flutter,
+    java,
+    pandas,
+    sql,
     git,
     figma,
-    docker,
     brain,
     sail,
     rdp,
     zibdy,
     ucsd,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bc,
+    schance,
+    soar,
+    cs148,
     threejs,
   } from "../assets";
   
@@ -66,6 +64,34 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -81,42 +107,26 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -175,93 +185,98 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Filler",
+      name: "John Doe",
+      designation: "CEO",
+      company: "GOOGLE",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SOAR: Save On A Ride",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Mobile application to simplify the process of college students splitting ubers. Helps students save money and the environment by minimizing the number of ubers needed when students are going to the same place.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "fullstack",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: soar,
+      source_code_link: "https://github.com/mrTSB/soarai",
     },
     {
-      name: "Job IT",
+      name: "Royal Battle",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Java game that is a combination of hit games Battle Cats and Clash Royale. Enables users to play against each other or against AI.",
       tags: [
         {
-          name: "react",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "java gui",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "oop",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bc,
+      source_code_link: "https://github.com/mrTSB/royal-battle",
     },
     {
-      name: "Trip Guide",
+      name: "2nd Chance",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a chat-bot that mimics someone based on text and/or audio data uploaded. Gives the user the capability to speak to them or text them.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "convex",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "openai",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: schance,
+      source_code_link: "https://devpost.com/software/2nd-chance-ryczl2",
+    },
+    {
+      name: "CS 148: Blender",
+      description:
+        "Leveraged what I learned about computer graphics to create 3D models in blender. I then placed them in a scene and use my knowledge to have proper lighting and have cohesion between objects. This merited me an A+ in the class.",
+      tags: [
+        {
+          name: "blender",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "graphics",
+          color: "green-text-gradient",
+        },
+        {
+          name: "3dmodeling",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cs148,
+      source_code_link: "https://github.com/mrTSB/cs-148-final-project",
     },
   ];
   
