@@ -197,7 +197,7 @@ import {
     {
       name: "SOAR: Save On A Ride",
       description:
-        "Mobile application to simplify the process of college students splitting ubers. Helps students save money and the environment by minimizing the number of ubers needed when students are going to the same place.",
+        "Functional mobile application to simplify processes for college students. This application helps them save money and minimize their carbon footprint.",
       tags: [
         {
           name: "flutter",
