@@ -31,6 +31,7 @@ import zibdy from "./company/zibdy.png";
 import ucsd from "./company/ucsd.png";
 
 import bc from "./bc.webp";
+import twitterx from "./twitterx.webp";
 import cs148 from "./cs148.png";
 import schance from "./schance.png";
 import soar from "./soar.png";
@@ -64,7 +65,8 @@ export {
   sail,
   rdp,
   zibdy,
-  ucsd, 
+  ucsd,
+  twitterx,
   bc,
   soar,
   cs148,

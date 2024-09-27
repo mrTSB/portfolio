@@ -26,6 +26,7 @@ import {
     soar,
     cs148,
     threejs,
+    twitterx,
   } from "../assets";
   
   export const navLinks = [
@@ -235,6 +236,27 @@ import {
       ],
       image: bc,
       source_code_link: "https://github.com/mrTSB/royal-battle",
+    },
+    {
+      name: "X Political Sentiment",
+      description:
+        "To satiate my curiosity of political trends on X and address the issue of X APIs being difficult and expensive for reading tweets, I developed a web srcaping bot that determines political sentiment on the platform.",
+      tags: [
+        {
+          name: "selenium",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "openai",
+          color: "green-text-gradient",
+        },
+        {
+          name: "beautiful soup",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: twitterx,
+      source_code_link: "https://github.com/mrTSB/twitter-political-bias",
     },
     {
       name: "2nd Chance",
